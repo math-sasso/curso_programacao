@@ -17,6 +17,10 @@ class Calculadora():
     def subtracao(self,numero1:float, numero2:float):
         print(f"Calculadora {self.marca} somou:")
         return numero1-numero2
+    
+    def multiplicacao(self,numero1:float, numero2:float):
+        print(f"Calculadora {self.marca} somou:")
+        return numero1*numero2
 
 
 if __name__ == "__main__":
